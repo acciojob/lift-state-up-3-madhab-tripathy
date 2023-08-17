@@ -1,1 +1,33 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 400px;
+    height: 300px;
+    padding: 1rem;
+    background-color:#73FE00;
+}
+.child{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.3rem;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.child.ch-1{
+    background-color:#CA5C1A;
+}
+.child.ch-2{
+    background-color:yellow !important;
+}
+button{
+    width: 30%;
+    height:25px;
+}
+p{
+    margin-top: 1rem;
+}
